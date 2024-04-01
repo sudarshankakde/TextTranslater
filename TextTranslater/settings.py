@@ -30,8 +30,6 @@ DEBUG = True
 # vercel_app/settings.py
 ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
-# vercel_app/settings.py
-WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 # Application definition
 
