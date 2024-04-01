@@ -2,8 +2,8 @@
 {
     "builds": [{
         "src": "TextTranslater/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb" }
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "100mb" }
     }],
     "routes": [
         {
