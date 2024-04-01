@@ -1,9 +1,4 @@
-{ "version": 2,
-    "builds": [
-      {
-        "src": "./TextTranslater/wsgi.py",
-        "use": "@vercel/python"    }
-  ],
+{ 
     "routes": [
         {
             "src": "/(.*)",
